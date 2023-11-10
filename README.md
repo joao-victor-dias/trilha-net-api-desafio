@@ -17,6 +17,12 @@ A sua classe principal, a classe de tarefa, deve ser a seguinte:
 
 Não se esqueça de gerar a sua migration para atualização no banco de dados.
 
+- Insira sua string de conexão no arquivo appsettings.Development.json;
+- Crie o banco de dados;
+- Utilize os comandos para atualizar o banco de dados:
+  -  dotnet ef migrations add inicial;
+  -  dotnet ef database update.
+
 ## Métodos esperados
 É esperado que você crie o seus métodos conforme a seguir:
 
